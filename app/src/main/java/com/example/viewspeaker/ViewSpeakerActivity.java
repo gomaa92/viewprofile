@@ -17,7 +17,7 @@ public class ViewSpeakerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_view_speaker);
 
         Speaker speaker = new Speaker("Ahmed", "Gomaa", "android developer", "ITI", "ahmed@gmaill.com", "fesal", "ay haga b2a hena");
 
